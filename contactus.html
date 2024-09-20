@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <my-navbar></my-navbar>
+
+
+    <div class="contact">
+        <div class="title-wrapper">
+            <div class="icon-box">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Contact me</h3>
+        </div>
+        <div class="contact-info">
+            <p>If you have any questions or need further information, feel free to reach out to us. We're here to help
+                you
+                with any inquiries you might have.</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Phone: <a href="tel:+923471032189">03471032189</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: <a href="mailto:danishrehman51@gmail.com">danishrehman51@gmail.com</a></p>
+                </div>
+            </div>
+            <p>Feel free to drop us a message and we'll get back to you as soon as possible. Your feedback and questions
+                are always welcome!</p>
+        </div>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="w3-center">Contact form</h2>
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col l6 s12">
+                    <form action="form.php" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="w3-input w3-border w3-margin-bottom" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="w3-input w3-border w3-margin-bottom"
+                            required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="w3-input w3-border w3-margin-bottom" rows="5"
+                            required></textarea>
+
+                        <button type="submit" name="submit" class="w3-button w3-teal">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+    <my-footer></my-footer>
+
+</body>
+
+</html>
