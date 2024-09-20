@@ -20,12 +20,12 @@ class mynavbar extends HTMLElement {
             </div>
             <div class="allmenu">
                 <ul class="nav-list">
-                    <li><a href="/index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="/resume.html"><i class="fa fa-file-text"></i> Resume</a></li>
-                    <li><a href="/projects.html"><i class="fa fa-briefcase"></i> Projects</a></li>
-                    <li><a href="/about.html"><i class="fa fa-user"></i> About me</a></li>
-                    <li><a href="/services.html"><i class="fa fa-cogs"></i> Services</a></li>
-                    <li><a href="/contactus.html"><i class="fa fa-envelope"></i> Contact me</a></li>
+                    <li><a href="https://github.com/Danishrehman786/portfolio/blob/main/index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="https://github.com/Danishrehman786/portfolio/blob/main/resume.html"><i class="fa fa-file-text"></i> Resume</a></li>
+                    <li><a href="https://github.com/Danishrehman786/portfolio/blob/main/projects.html"><i class="fa fa-briefcase"></i> Projects</a></li>
+                    <li><a href="https://github.com/Danishrehman786/portfolio/blob/main/about.html"><i class="fa fa-user"></i> About me</a></li>
+                    <li><a href="https://github.com/Danishrehman786/portfolio/blob/main/services.html"><i class="fa fa-cogs"></i> Services</a></li>
+                    <li><a href="https://github.com/Danishrehman786/portfolio/blob/main/contactus.html"><i class="fa fa-envelope"></i> Contact me</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@ class mynavbar extends HTMLElement {
             </div>
         </div>
     </header>
-    <script src="script.js"></script>
+    <script src="https://github.com/Danishrehman786/portfolio/blob/main/script.js"></script>
 </body>
 </html>
 `;
