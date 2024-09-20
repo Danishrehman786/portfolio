@@ -62,7 +62,7 @@ class mynavbar extends HTMLElement {
             </div>
         </div>
     </header>
-    <script src="https://github.com/Danishrehman786/portfolio/blob/main/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
 `;
