@@ -1265,3 +1265,7 @@ form button:hover {
 
 
 /* light mode home end */
+ /* This CSS will hide any footer message from SheetDB */
+  div[style*="We useSheetDB Forms"] {
+      display: none;
+  }
